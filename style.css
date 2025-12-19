@@ -1,0 +1,41 @@
+/* Fuente y tamaño base */
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #00539f; /* color fondo de la página */
+}
+
+/* Contenedor del cuerpo */
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/* Estilo del título */
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Estilo para párrafos y listas */
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* Centrar imágenes (si usas <img>) */
+img 
+{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
